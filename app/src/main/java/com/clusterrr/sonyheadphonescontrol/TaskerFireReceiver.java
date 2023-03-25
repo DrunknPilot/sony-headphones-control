@@ -52,7 +52,7 @@ public final class TaskerFireReceiver extends BroadcastReceiver {
     public static final String EXTRA_STRING_MODE = "mode";
     public static final String EXTRA_STRING_VOLUME = "volume";
     public static final String EXTRA_STRING_VOICE = "voice";
-    public static final int RECV_TIMEOUT = 200;
+    public static final int RECV_TIMEOUT = 2000;
     public static final byte MAGIC_PACKET_START = 0x3e;
     public static final byte MAGIC_PACKET_END = 0x3c;
     public static final byte COMMAND_ACK = 0x00;
